@@ -1,0 +1,50 @@
+.backgraund{
+    background-image: url("../img/foto_inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    overflow: auto; 
+     position:fixed; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.loading{
+    height: 100%;
+    width: 86%;
+
+}
+.firstContainer{
+    background-image: url("../img/menu.jpg");
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 150px;
+    
+}
+.firstContainer select{
+    margin-top: 20px;
+}
+.secondContainer{
+    width: 86%;
+}
+
+.Home{
+    /* background-color:  rgb(93, 92, 92); */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly; 
+    /* background-size: 100%; */
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+}
+
+.Buscar{
+    color: antiquewhite;
+}
